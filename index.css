@@ -1,0 +1,147 @@
+body {
+  position: fixed;
+  width: 100vw;
+}
+header {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.87);
+  color: rgb(245, 245, 245);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+header > div {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div > ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-right: 10px;
+}
+
+button {
+  width: 300px;
+}
+
+section {
+  height: 100vh;
+}
+
+.left {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.alien {
+  width: 230px;
+  height: 230px;
+  margin-top: 30px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+h2 {
+  margin-right: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+.edit {
+  margin-top: 20px;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+  color: #24292e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
+  height: 100%;
+  justify-content: center;
+}
+
+.right-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.navbar {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.subnav {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.columnbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.box-one {
+  height: 30%;
+  width: 330px;
+}
+h5 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.box-two {
+  height: 30%;
+  width: 330px;
+}
+.box-three {
+  height: 30%;
+  width: 330px;
+}
+.box-four {
+  height: 30%;
+  width: 330px;
+}
+.box-five {
+  height: 30%;
+  width: 330px;
+}
+.box-six {
+  height: 30%;
+  width: 330px;
+  display: flex;
+}
